@@ -13,9 +13,10 @@
 </head>
 
 <body>
-  <nav class="navbar  navbar-expand-lg navbar-light boader " style="background-color: #91caf3;" >
+    <!--navbar -->
+  <nav class="navbar  navbar-expand-lg navbar-light boader " style="background-color: #91caf3;">
     <div class="container-fluid">
-      <a class="navbar-brand mx-0" href="#" >EasyTalk</a>
+      <a class="navbar-brand mx-0" href="#">EasyTalk</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -27,60 +28,82 @@
           </li>
           <li class="nav-item">
             <a class="nav-link mx-2" href="#">About</a>
-   7iin       </li>
+          </li>
           <li class="nav-item">
             <a class="nav-link mx-2" href="#">contact</a>
           </li>
-         
+
         </ul>
-         <div class="button btn btn-primary "  data-bs-toggle="modal" data-bs-target="#login" >login</div>
-         <div class="button btn btn-primary " >sign Up</div>
+        <div class="button btn btn-primary mx-2 " data-bs-toggle="modal" data-bs-target="#login">login</div>
+        <div class="button btn btn-primary " data-bs-toggle="modal" data-bs-target="#signup">sign Up</div>
       </div>
-     
     </div>
   </nav>
- 
-<!--login Modal -->
-<div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="login">login</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Launch static backdrop modal
-</button>
 
-<!--signup Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Understood</button>
+  <!--login Modal -->
+  <div class="modal fade opacity-75" style="background-color: whitesmoke; " id="login" data-bs-backdrop="static"
+    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content opacity-100" class="loginbackground"
+        style="background-color: rgb(182, 236, 253); border-radius: 5%; margin-top: 50%;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="login">login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <button type="submit" class="btn btn-primary">login</button>
+          </form>
+        </div>
+
       </div>
     </div>
   </div>
-</div>
+  <!--signup Modal -->
+  <div class="modal fade opacity-75" style="background-color: whitesmoke; " id="signup" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog " >
+      <div class="modal-content" style="background-color: rgb(182, 236, 253); border-radius: 5%; margin-top: 50%;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signup">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <p>creat a password</p>
+            <div class="mb-3">
+
+              <label for="exampleInputPassword1" class="form-label">New Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+
+              <label for="exampleInputPassword1" class="form-label">confrim password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <button type="submit" class="btn btn-primary">signup</button>
+          </form>
+        </div>
+       
+      </div>
+    </div>
+  </div>
   <h1>Hello, world!</h1>
 
 
