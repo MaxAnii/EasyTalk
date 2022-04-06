@@ -14,3 +14,28 @@
     color: rgb(2, 3, 43);
     font-size: larger;
 }
+.contact-back{
+    background-image: url(/image/contact.webp);
+    height: 110vh;
+    position: relative;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.contact-text{
+   
+    padding: 5% 20% 0 20%;
+}
+.contact-box {
+    padding: 1% auto 3% 3% ;
+    margin: 3% 20% auto 20%;
+    background-color: #DFDFDE;
+    border-radius: 1%;
+}
+.contact{
+  
+        
+        padding-top: 5%;
+  
+}
