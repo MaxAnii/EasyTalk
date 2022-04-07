@@ -1,5 +1,5 @@
 .background{
-    background-image: url(/image/Voice_bot.gif);
+    background-image: url(image/Voice_bot.gif);
     height: 75vh;
     position: relative;
     background-size: cover;
@@ -15,7 +15,7 @@
     font-size: larger;
 }
 .contact-back{
-    background-image: url(/image/contact.webp);
+    background-image: url(image/contact.webp);
     height: 110vh;
     position: relative;
     background-size: cover;
