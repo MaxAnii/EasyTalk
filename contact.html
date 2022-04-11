@@ -39,6 +39,99 @@
       </div>
     </div>
   </nav>
+  <!--login Modal -->
+  <div class="modal fade opacity-75" style="background-color: whitesmoke; " id="login" data-bs-backdrop="static"
+    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content opacity-100" class="loginbackground"
+        style="background-color: rgb(182, 236, 253); border-radius: 5%; margin-top: 50%;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="login">login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+
+            <button type="submit" class="btn btn-primary">login</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!--signup Modal -->
+  <div class="modal fade opacity-75" style="background-color: whitesmoke; " id="signup" data-bs-backdrop="static"
+    data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog ">
+      <div class="modal-content" style="background-color: rgb(182, 236, 253); border-radius: 5%; margin-top: 50%;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signup">sign up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3 ">
+              <label for="exampleFormControlInput1" class="form-label">Name</label>
+              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Name">
+            </div>
+            <div class="mb-3">
+             
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="form-check">
+              <fieldset>
+                <legend>Gender</legend>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Male
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Female
+                  </label>
+                </div>
+            </fieldset>
+            </div>
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Select age group</option>
+              <option value="1">10-15</option>
+              <option value="1">15-24</option>
+              <option value="2">above 24</option>
+              
+            </select>
+            <p>create password</p>
+            <div class="mb-3">
+
+              <label for="exampleInputPassword1" class="form-label">New Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter your Password">
+            </div>
+            <div class="mb-3">
+
+              <label for="exampleInputPassword1" class="form-label">confrim password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="confrim your password">
+            </div>
+
+            <button type="submit" class="btn btn-primary">signup</button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
     <div class="contact-back img-fluid " >
         <div class="contact-text">
         
